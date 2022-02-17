@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/moroabog/test.moroabogados.com.ar/
+    - /bin/cp index.php $DEPLOYPATH
